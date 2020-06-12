@@ -1,0 +1,22 @@
+.content{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10%;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border: solid black 1px;
+  border-radius: 5px;
+}
+
+.button_login{
+  max-width: 500px;
+  margin-top: 5%;
+  padding: 5px;
+}
+
+body{
+  background: url(../SiteSuperMusique/images/MusicBackground.jpg)  #555 no-repeat;
+  background-size: 100%;
+}
+

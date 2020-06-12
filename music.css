@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#background{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#background img{
+    height: 120vh;
+    width: 105%;
+    -webkit-filter:blur(20px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#blackLayer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 99;
+}
+
+#BoxPlayer{
+    width: 20%;
+    background-color: #ffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+#logo img{
+    height: 160px;
+    width: 100%;
+    margin: auto;
+    border: auto;
+}
+
+#player{
+    padding: 15px;
+    color: #334;
+}
+
+#songTitle{
+    width: 300px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 45px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#play,#next,#back{
+    width: 50px;
+    height: 50px;
+    background-color: Transparent;
+    border: none;    
+    outline: none;
+    border-radius: 50%;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#next{
+    width: 40px;
+    height: 40px;
+    left: 70%;
+}
+
+#back{
+    width: 40px;
+    height: 40px;
+    left: 30%;
+}
+
+#play img,#next img,#back img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#seek-bar{
+    width: 300px;
+    height: 5px;
+    background-color: gray;
+    display: flex;
+    border-radius: 50px;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+#fill{
+    height: 5px;
+    width: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+#handle{
+    width: 8px;
+    height: 8px;
+    background-color: royalblue;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+    
+}
