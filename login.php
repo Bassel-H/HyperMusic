@@ -15,9 +15,7 @@
 	<header>
 			
 	</header>
-	<div class="content">
-
-	<main>
+	<main class="content">
 		<?php
 		/*************************************************************************
 				nom du script : connexion.php
@@ -175,9 +173,8 @@
 			
 		?>
 		</main>
-		</div>
 		<footer>
-			
+		<p>&copy; 2020 BOUMERXP HAJBA</p>
 		</footer>
 	</body>
 	</html>

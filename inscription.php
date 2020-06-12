@@ -7,7 +7,10 @@
 </head>
 
 <body>
-		<div class="content">
+		<header>
+			
+		<header>
+		<main class="content">
 	<h1>Inscription</h1>
 		<form action="<?php $_SERVER['PHP_SELF'] ?>" method="post">
 			<div>
@@ -168,7 +171,10 @@
 			}
 			
 				
-		?>	
-	
+		?>
+		</main>
+<footer>
+  <p>&copy; 2020 BOUMERXP HAJBA</p>
+</footer>
 	</body>
 </html>
