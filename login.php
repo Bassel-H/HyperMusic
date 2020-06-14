@@ -2,14 +2,15 @@
 <html lang="fr">
 	<head>
     <meta name = "author"
-  content = "HAJ AMOR BASSEL" >
-  <meta name="description"
-  content="C'est un site pour faire de la musique" />
-  <meta name="keywords"
-  content="musique" >
-  <meta charset="utf-8">
-  <title>SuperMusique</title>
-  <link rel="stylesheet" href="style.css"> 
+  	content = "BOUMERXP HAJBA" >
+  	<meta name="description"
+  	content="C'est un site pour faire de la musique" />
+  	<meta name="keywords"
+  	content="musique" >
+  	<meta charset="utf-8">
+  	<title>SuperMusique</title>
+  	<link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" />
 	</head>
 	<body>
 	<header>
@@ -28,7 +29,7 @@
 								qu'il est connecté
 				Version : 1.0
 				Date	: 13/12/2019
-				Auteur	: HAJ AMOR BASSEL
+				Auteur	: BOUMERXP HAJBA
 			*************************************************************************/
 		
 			// on determine si on doit afficher ou traiter le formulaire

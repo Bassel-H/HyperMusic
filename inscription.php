@@ -3,6 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Inscription</title>
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<meta name = "author"
+  	content = "BOUMERXP HAJBA" >
+ 	<meta name="description"
+  	content="C'est un site pour faire de la musique" />
+  	<meta name="keywords"
+  	content="musique" >
+  	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
@@ -74,7 +82,7 @@
 								Le mot sera enregistré sous une forme criptée.
 				Version : 1.0
 				Date	: jeudi 23 avril 2020
-				Auteur	: HAJ AMOR BASSEL
+				Auteur	: BOUMERXP HAJBA
 			*************************************************************************/
 			
 			// on determine si on doit afficher ou traiter le formulaire
